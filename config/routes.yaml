@@ -1,3 +1,11 @@
 #index:
 #    path: /
 #    controller: App\Controller\DefaultController::index
+
+#ConfirmRegistration:
+#    path: /confirm/{token}
+#    controller: App\Controller\RegistrationController::confirmRegistration
+
+#resetPassword:
+#    path: /reset_password/{token}
+#    controller: App\Controller\RegistrationController::forgotPassword
